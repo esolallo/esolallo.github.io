@@ -11,34 +11,35 @@ nav: true
 
 <!-- _pages/publications.md
 
+### <b>Papers</b>
+***
+### <b>Presentations</b>
+***
 scholar jekyll plugin
 https://www.amirasiaee.com/dailyreport/jekyll-scholar/
 https://github.com/inukshuk/jekyll-scholar
 -->
 
-### <b>Papers</b>
-***
-<strong>Proceedings refereed by abstract:</strong>
+
+<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Conference proceedings:</h1>
 <div class="publications">
-  {% bibliography -f refereed %}
+  {% bibliography -f proceedings %}
 </div>
 
 <br>
-<strong>Unpublished manuscripts:</strong>
+<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Unpublished manuscripts:</h1>
 <div class="publications">
   {% bibliography -f unpublished %}
 </div>
 
 <br>
-### <b>Presentations</b>
-***
-<strong>Conference talks:</strong>
+<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Conference talks:</h1>
 <div class="publications">
   {% bibliography -f talks %}
 </div>
 
 <br>
-<strong>Poster presentations:</strong>
+<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Poster presentations:</h1>
 <div class="publications">
   {% bibliography -f posters %}
 </div>

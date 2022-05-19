@@ -21,6 +21,7 @@ hr {
 
 a, table.table a {
   color: var(--global-theme-color);
+  font-weight: bolder;
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
@@ -170,7 +171,7 @@ blockquote {
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      font-weight: bolder;
+      font-weight: 500;
       color: var(--global-theme-color);
       &:hover {
         color: var(--global-hover-color);
@@ -436,7 +437,9 @@ footer.sticky-bottom {
   ol.bibliography {
     list-style: none;
     padding: 0;
+    margin-left: 2rem;
     margin-top: 0;
+    margin-bottom: -1rem;
 
     li {
       margin-bottom: 1rem;
@@ -481,6 +484,7 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-button-color);
           border: 1px solid var(--global-button-color);
+          font-weight: bold;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -536,10 +540,11 @@ figure.highlight {
 }
 
 pre {
-  color: var(--global-theme-color);
+  color: var(--global-code-font-color);
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  font-weight: bolder;
   pre, code {
     background-color: transparent;
     border-radius: 0;
@@ -548,8 +553,8 @@ pre {
 }
 
 code {
-  color: var(--global-theme-color);
-  background-color: var(--global-code-bg-color);
+  color: var(--global-code-font-color);
+  background-color: var(--global-button-color);
   border-radius: 3px;
   padding: 3px 3px;
 }

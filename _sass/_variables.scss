@@ -5,23 +5,23 @@
 
 
 // Colors
-$red-color:           #981931 !default;
+$red-color:          	#2aa198 !default;
 $red-color-dark:      #2b070e !default;
 $purple-color:        #bac3e9 !default;
 $purple-color-light:  #eaedf8 !default;
-$gold-color:          #B99D29 !default;
+$gold-color:          #2AA198 !default;
 $light-gold-color:    lighten($gold-color, 25%);
-$teal-color:          #1D8985 !default;
-$light-teal-color:    lighten($teal-color, 25%);
+$teal-color:          #2AA198 !default;
+$light-teal-color:    lighten($teal-color, 10%);
 
-$sand-color:          #f9f2e3 !default;
+$sand-color:          #fdf6e3 !default;
 $sand-color-light:    lighten($sand-color, 10%);
-$dark-color:          #373633 !default;
+$dark-color:          #2c2b28 !default;
 $dark-color-light:    lighten($dark-color, 40%);
 
 $orange-color:        #F29105 !default;
-$blue-color:          #0076df !default;
-$blue-color-dark:     #00369f !default;
+// $blue-color:          #0076df !default;
+// $blue-color-dark:     #00369f !default;
 $green-color:         #00ab37 !default;
 $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
@@ -38,8 +38,12 @@ $grey-900:            #212529;
 $white-color:         #ffffff !default;
 $black-color:         #000000 !default;
 
+$blue-color:          #002b36 !default;
+$blue-color-light:    rgba($blue-color, 0.5);
 
 // Theme colors
 
 $code-bg-color-light:      rgba($teal-color, 0.05);
-$code-bg-color-dark:       #44433f !default;
+$code-font-color-light:    $teal-color;
+$code-bg-color-dark:       lighten($dark-color, 10%);
+$code-font-color-dark:     $teal-color;

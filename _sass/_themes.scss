@@ -5,6 +5,7 @@
 :root {
   --global-bg-color: #{$sand-color};
   --global-code-bg-color: #{$code-bg-color-light};
+  --global-code-font-color: #{$code-font-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$teal-color};
@@ -36,6 +37,7 @@
 html[data-theme='dark'] {
   --global-bg-color: #{$dark-color};
   --global-code-bg-color: #{$code-bg-color-dark};
+  --global-code-font-color: #{$code-font-color-dark};
   --global-text-color: #{$white-color};
   --global-text-color-light: #{$grey-color-light};
   --global-theme-color: #{$gold-color};
@@ -46,7 +48,7 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #{$dark-color-light};
   --global-card-bg-color: #{$gold-color};
-  --global-button-color:  #{$purple-color};
+  --global-button-color:  #{$red-color};
 
   .fa-sun {
     padding-left: 10px;
