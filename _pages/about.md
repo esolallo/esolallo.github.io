@@ -31,7 +31,7 @@ social: false  # includes social icons at the bottom of the page
 # fix color names
 # update CV (and about) in general - see cm and lp's
 
-
+# change background colors back to black/dark grey and white?
 
 # dark mode font: #ffffff
 # light mode font: #000000
