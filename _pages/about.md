@@ -4,7 +4,7 @@ ord: 10
 permalink: /
 subtitle: >
     <b>
-    <pre>[  so.ˈla.ʝont͡ʃ  ]  &bull;  she/her </pre><br>
+    <pre>[  so.&#712;la.jont&#865;&#643;  ]  &bull;  she/her </pre><br>
     <b/>
 
 profile:
@@ -37,6 +37,7 @@ social: false  # includes social icons at the bottom of the page
 # light mode font: #000000
 # bar space: &nbsp;
 # bullet point: &bull;
+# IPA symbols in html: https://www.phon.ucl.ac.uk/home/wells/ipa-unicodetest.htm#:~:text=There%20are%20two%20ways%20to,Select%20it%2C%20and%20Insert.
 ---
 I'm a third year PhD student at the UCLA linguistics department. My research focuses on morphology and its interfaces with phonology and syntax. I am particularly interested in using experimental methods to investigate infant acquisition of morphological alternations.
 
