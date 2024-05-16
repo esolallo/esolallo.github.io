@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /参加研究/
+permalink: /MonkeyC/
 title: 参加儿童普通话研究
 ord: 60
 nav: true
