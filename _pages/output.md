@@ -21,15 +21,15 @@ https://github.com/inukshuk/jekyll-scholar
 -->
 
 
-<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Conference proceedings:</h1>
+<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Publications:</h1>
 <div class="publications">
-  {% bibliography -f proceedings %}
+  {% bibliography -f pubs %}
 </div>
 
 <br>
-<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Unpublished manuscripts:</h1>
+<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Conference proceedings:</h1>
 <div class="publications">
-  {% bibliography -f unpublished %}
+  {% bibliography -f proceedings %}
 </div>
 
 <br>
@@ -42,4 +42,10 @@ https://github.com/inukshuk/jekyll-scholar
 <h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Poster presentations:</h1>
 <div class="publications">
   {% bibliography -f posters %}
+</div>
+
+<br>
+<h1 style="text-align:left;font-size:20px;font-weight:500;padding-top:15px;padding-bottom:10px;">Thesis:</h1>
+<div class="publications">
+  {% bibliography -f unpublished %}
 </div>

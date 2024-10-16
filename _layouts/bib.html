@@ -66,18 +66,33 @@
               {%- endunless -%}
             {%- endif -%}
           {%- endfor %}
+          <!-- Year -->
+          {%- if entry.type == "submitted" -%}<i>{%- endif -%}
           {{entry.year}}.&nbsp;
+          {%- if entry.type == "submitted" -%}</i>{%- endif -%}
+
           {%- if entry.type == "thesis" -%}<i>{%- endif -%}
           {{entry.title}}.
           {%- if entry.type == "thesis" -%}</i>{%- endif -%}
+
           {%- if entry.type == "Poster presentation" or entry.type == "Conference talk" -%}
             {{ " " }}{{ entry.note }}.
           {%- endif -%}
+
           {%- if entry.type == "thesis" -%}
             {{ " " }}{{ entry.note }},{{ " " }} {{ entry.school }}.
           {%- endif -%}
+
           {%- if entry.type == "proceedings" -%}
             {{ " " }} In {{ " " }} <em>{{ entry.booktitle }}</em>.
+          {%- endif -%}
+
+          {%- if entry.type == "pub" -%}
+            {{ " " }}<i>{{ entry.journal }}</i>,{{ " " }} {{ entry.volnum }}{{ entry.issuenum }}. {{ entry.pagenum }}.
+          {%- endif -%}
+
+          {%- if entry.type == "submitted" -%}
+            {{ " " }}<i>{{ entry.journal }}</i>.
           {%- endif -%}
 
 

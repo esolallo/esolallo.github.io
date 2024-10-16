@@ -21,7 +21,6 @@ social: false  # includes social icons at the bottom of the page
 
 # Papi help:
 # make it so that email won't show up in social media
-# time when switched between dark and light mode
 # a button to change things to spanish (and back to english)
 # Si prefiere leer en castellano, haz clic aqui
 
@@ -39,7 +38,9 @@ social: false  # includes social icons at the bottom of the page
 # bullet point: &bull;
 # IPA symbols in html: https://www.phon.ucl.ac.uk/home/wells/ipa-unicodetest.htm#:~:text=There%20are%20two%20ways%20to,Select%20it%2C%20and%20Insert.
 ---
-I'm a third year PhD student at the UCLA linguistics department. My research focuses on morphology and its interfaces with phonology and syntax. I am particularly interested in using experimental methods to investigate infant acquisition of morphological alternations.
+I'm a sixth year PhD student at the UCLA linguistics department. My research focuses primarily on the acquisition of phonetic and phonological processes. I am particularly interested in using experimental methods to investigate how people learn, both by looking at initial perceptual biases that impact early acquisition and the learning strategies that children use to figure out how to speak like an adult. 
+
+In my dissertation, I am comparing 4-8 year old children and adults' productions of Mandarin rising (T2) and falling (T4) tones as a case study into how children develop adult-like phonetic grammars.
 
 I also do fieldwork on San Cristóbal Lachirioag Zapotec, a Northern Zapotec language from the Villa Alta district of Oaxaca, Mexico.
 
